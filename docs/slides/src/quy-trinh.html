@@ -1,0 +1,35 @@
+<section id="quy-trinh" data-transition="fade" style="background:#EFECE5; color:#14213D; font-family:'Be Vietnam Pro', Arial, sans-serif; padding:128px; display:flex; flex-direction:column; gap:56px">
+<div style="display:flex; flex-direction:column; gap:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:26px; color:#0B6E99; text-transform:uppercase; letter-spacing:2px">Cách làm</p>
+<h2 style="font-size:64px; font-weight:700; line-height:1.15">Năm bước, mỗi bước một script</h2>
+</div>
+<div style="display:flex; gap:24px">
+<div style="flex:1; display:flex; flex-direction:column; gap:16px; background:#FDFCF9; border-radius:20px; padding:32px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:44px; font-weight:700; color:#0B6E99">01</p>
+<h3 style="font-size:32px; font-weight:700; line-height:1.2">Dữ liệu</h3>
+<p style="font-size:26px; line-height:1.45; color:#4A5568">TF Flowers 3.670 ảnh, COCO128, 6 tài liệu chính sách ShopLite</p>
+</div>
+<div style="flex:1; display:flex; flex-direction:column; gap:16px; background:#FDFCF9; border-radius:20px; padding:32px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:44px; font-weight:700; color:#0B6E99">02</p>
+<h3 style="font-size:32px; font-weight:700; line-height:1.2">Huấn luyện và đo</h3>
+<p style="font-size:26px; line-height:1.45; color:#4A5568">Chia 80/10/10, chọn checkpoint theo val, đo một lần trên test</p>
+</div>
+<div style="flex:1; display:flex; flex-direction:column; gap:16px; background:#FDFCF9; border-radius:20px; padding:32px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:44px; font-weight:700; color:#0B6E99">03</p>
+<h3 style="font-size:32px; font-weight:700; line-height:1.2">Tầng suy luận</h3>
+<p style="font-size:26px; line-height:1.45; color:#4A5568">Mỗi mô hình một lớp trong core/, không phụ thuộc web</p>
+</div>
+<div style="flex:1; display:flex; flex-direction:column; gap:16px; background:#FDFCF9; border-radius:20px; padding:32px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:44px; font-weight:700; color:#0B6E99">04</p>
+<h3 style="font-size:32px; font-weight:700; line-height:1.2">API và kiểm thử</h3>
+<p style="font-size:26px; line-height:1.45; color:#4A5568">FastAPI 8 endpoint, lỗi 400/413/503; pytest 7 ca, smoke test</p>
+</div>
+<div style="flex:1; display:flex; flex-direction:column; gap:16px; background:#FDFCF9; border-radius:20px; padding:32px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:44px; font-weight:700; color:#0B6E99">05</p>
+<h3 style="font-size:32px; font-weight:700; line-height:1.2">Giao diện</h3>
+<p style="font-size:26px; line-height:1.45; color:#4A5568">Streamlit và React gọi chung API; React build chạy cùng cổng</p>
+</div>
+</div>
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace; font-size:26px; color:#4A5568">scripts/s1_data.py → s2_classifier → s3_detector → s4_retrieval → s5_rag</p>
+<aside>Notebook gốc được tách thành dự án: các ô writefile thành file code, các ô huấn luyện và đánh giá thành 5 script chạy lần lượt. Hình vẽ lưu vào docs/figures, số đo lưu vào artifacts.</aside>
+</section>

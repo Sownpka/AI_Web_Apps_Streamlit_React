@@ -1,0 +1,7 @@
+{
+  "hit@1": 1.0,
+  "hit@3": 1.0,
+  "n_questions": 10,
+  "embed_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "llm": "Qwen/Qwen2.5-1.5B-Instruct"
+}

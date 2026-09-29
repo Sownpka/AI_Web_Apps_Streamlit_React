@@ -1,0 +1,12 @@
+{
+  "image_to_image_precision@5": 0.88,
+  "text_to_image_precision@10": {
+    "daisy": 1.0,
+    "dandelion": 1.0,
+    "roses": 1.0,
+    "sunflowers": 1.0,
+    "tulips": 1.0
+  },
+  "gallery_size": 628,
+  "model": "openai/clip-vit-base-patch32"
+}

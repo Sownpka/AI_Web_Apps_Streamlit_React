@@ -1,0 +1,51 @@
+# ---- Bí mật: không bao giờ đưa lên Git ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+.huggingface/
+.cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# ---- Node / React ----
+web/node_modules/
+web/dist/
+
+# ---- Log, kết quả chạy tạm ----
+logs/
+runs/
+*.log
+
+# ---- Dữ liệu lớn: tải lại bằng python scripts/s1_data.py ----
+data/flowers/
+data/coco128/
+data/*.zip
+data/*.tgz
+# kho ảnh tìm kiếm + chỉ mục: tạo lại bằng python scripts/s4_retrieval.py
+data/gallery/
+artifacts/retrieval/index.faiss
+artifacts/retrieval/meta.json
+
+# ---- Trọng số mô hình: tạo lại bằng scripts/s2_classifier.py, s3_detector.py ----
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# ---- Hệ điều hành / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+cloudflared
+*.zip
