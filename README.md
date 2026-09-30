@@ -3,6 +3,8 @@
 Bốn ứng dụng AI (phân loại ảnh, phát hiện đối tượng, tìm kiếm ảnh, chatbot RAG) sau một backend FastAPI,
 với hai giao diện: Streamlit và React.
 
+Model Ai hỗ trợ: Claude sonnet 5.5
+
 ## Slide
 
 Bản PDF: [docs/slides/slides.pdf](./docs/slides/slides.pdf) · Mã nguồn slide: `docs/slides/src/` ·
